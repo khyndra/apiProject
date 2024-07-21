@@ -4,16 +4,30 @@
 
 ### Installation
 
-Navigate to project directory
-Run the following commands:
-1st - dotnet restore
-2nd - dotnet build
-3rd - dotnet run
+Run the following command:
+
+```
+dotnet build
+```
 
 ### Run tests
 
-To run all the tests use the following command: dotnet test
+To run all the tests use the following command:
 
-### Report
+```
+dotnet test
+```
 
-To get an html report run: dotnet test --logger html
+### Run all tests and get report
+
+To run all tests and get report use the following command:
+
+```
+dotnet test --logger html
+```
+
+Reports are stored in TestResults folder. If you want you can use the following command to open them all:
+
+```
+open TestResult/*.html
+```
